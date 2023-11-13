@@ -1,14 +1,15 @@
 @import './menu.css';
 
 body{
-    background-color: blue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .banner{
-    background-color: aliceblue;
     width: 600px;
     height: 400px;
-    color: rgb(13, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     position: absolute;
