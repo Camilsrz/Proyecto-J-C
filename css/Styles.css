@@ -1,4 +1,7 @@
 @import './menu.css';
+@import './botones.css';
+@import './footer.css';
+
 
 body{
     background-repeat: no-repeat;
@@ -19,6 +22,9 @@ body{
 }
 
 img{
-    width: 25%;
-    height: 30%;
+    width: 8%;
+    height: 50%;
 }
+
+
+

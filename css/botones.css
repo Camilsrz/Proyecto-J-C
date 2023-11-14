@@ -1,6 +1,6 @@
 .boton1{
     
-    border: 1px solid; 
+    border: 1px solid rgb(157, 106, 12); 
     padding: 10px; 
     background-color: rgb(157, 106, 12);
     border-radius: 50px; 
@@ -15,7 +15,7 @@
 
 .boton2{
     
-    border: 1px solid; 
+    border: 1px solid rgb(157, 106, 12); 
     padding: 10px; 
     background-color: rgb(157, 106, 12);
     border-radius: 50px; 
@@ -30,3 +30,4 @@
     text-decoration: none; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
