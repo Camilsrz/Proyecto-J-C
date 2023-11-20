@@ -1,0 +1,62 @@
+
+@import './menu.css';
+@import './botones.css';
+@import './footer.css';
+
+
+
+h1{
+ color: rgb(35, 141, 233);
+ font-family: 'Josefin Sans', sans-serif;
+ font-family: 'Playpen Sans', cursive;
+ text-align: center;
+}
+
+h2{
+    color: rgb(157, 106, 12);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    
+}
+
+
+.imagen{
+    width: 30%;
+    height: 30%;
+    margin:auto;
+    display:block;
+    border-radius: 10%;
+}
+
+.row {
+    display: flex;
+}
+
+.column1 {
+    flex: 50%;
+    padding: 5%;
+    background-color: rgb(35, 141, 233);
+}
+
+.column2{
+    flex: 50%;
+    padding: 5%;
+    height: 100%;
+    background-color: rgb(35, 233, 68);
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+    text-align: center;
+    color: white;
+}
+
