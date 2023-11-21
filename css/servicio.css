@@ -1,0 +1,39 @@
+
+@import './menu.css';
+@import './botones.css';
+@import './footer.css';
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.logo{
+    width: 5%;
+    height: 5%;
+    text-align: left;
+}
+
+.titulo{
+ font-family: 'Josefin Sans', sans-serif;
+ font-family: 'Playpen Sans', cursive;
+ background-color: white;
+ text-align: center;
+ color: black;
+ font-size: x-large;
+ padding: 5px;
+}
+
+.servicio{
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 30px; 
+    text-align: center;
+    color: white;
+    text-transform:uppercase;
+    height: 70%;
+}
