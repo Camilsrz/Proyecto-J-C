@@ -9,21 +9,15 @@ body{
 }
 
 .banner{
-    width: 600px;
-    height: 400px;
-    color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    margin: -120px 0 0 -120px
+ font-family:'Times New Roman', Times, serif;
+ text-align: center;
+ color: rgb(255, 255, 255);
+ font-size: medium;
+ padding: 5px;
+ margin: 15%;
 }
 
-img{
-    width: 8%;
-    height: 50%;
-}
+
 
 
 

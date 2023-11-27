@@ -1,0 +1,28 @@
+@import './menu.css';
+@import './botones.css';
+@import './footer.css';
+
+h1{
+    color: rgb(157, 106, 12);
+    width: 600px;
+    height: 400px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    margin: -120px 0 0 -120px;
+    font-size: 60px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
