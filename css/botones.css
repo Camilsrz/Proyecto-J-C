@@ -5,7 +5,6 @@
     background-color: rgb(157, 106, 12);
     border-radius: 50px; 
     width: 110px;
-    margin-left: 900px;
    }
    
    .boton1 a {
@@ -34,7 +33,7 @@
 }
 
 @media screen and (max-width:480px) {
-    .header .boton1{
-        margin: 30px;
+    .boton1{
+        margin: 40px;
     }
 }

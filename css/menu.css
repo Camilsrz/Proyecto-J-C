@@ -1,56 +1,33 @@
-.header{
+.menu{
     background-color: black;
     display: flex;
     align-items: center;
     list-style:none;
-    justify-content:space-between;
-    flex-flow: row wrap;
+    justify-content:space-evenly ;
+    height: 50px;
+
+
 }
-.header a {
+.menu a {
     color: rgb(255, 251, 251);
     text-decoration: none;
 }
 
-.header .button{
-  display: none;
-}
-
-.header .svg{
-    width:30px;
-    height: 30px;
-}
-
-.header .ul{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content:flex-start;
-    align-items: center;
-}
-
-.header .li{
-    margin: 10px;
-}
 
 @media screen and (max-width:480px) {
-
-    .header .button{
-        display: block;
-    }
-
-    .header .nav{
-        width: 100%;
-        display: none;
-    }
-
-    .header .nav.activo{
-        display: block;
-    }
-
-    .header .ul{
+    .menu{
+        background-color: black;
         flex-direction: column;
+        align-items: center;
+        list-style:none;
+        height: auto;
     }
 
-    .header .li{
-        margin: 10px;
+    li{
+        margin: 3%;
+    }
+    .menu a {
+        color: rgb(255, 251, 251);
+        text-decoration: none;
     }
 }

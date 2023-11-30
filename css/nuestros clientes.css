@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: white;
 }
 
 
@@ -27,7 +28,7 @@ p{
     font-family: 'Roboto', sans-serif;
     font-size:30px;
     text-align: center;
-    color: #ffffff;
+    color: black;
     border-radius: 5%;
 }
 
@@ -36,5 +37,12 @@ p{
     height: 15%;
 }
 
+
+@media screen and (max-width:480px) {
+    .clientes{
+        width: 40%;
+        height: 40%;
+    }
+}
 
 

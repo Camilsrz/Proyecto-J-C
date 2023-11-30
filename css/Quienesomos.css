@@ -31,7 +31,6 @@ h2{
 .column2{
     flex: 50%;
     padding: 5%;
-    height: 100%;
     background-image: url(https://humanidades.com/wp-content/uploads/2016/06/suelo-planta-e1558823997978.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,4 +61,23 @@ p{
     display:block;
     border-radius: 10%;
     
+}
+
+@media screen and (max-width:480px) {
+    .row{
+        flex-direction: column;
+    }
+    .logo{
+        margin-top: 10px;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .imagen{
+     width: 45%;
+     height: 45%;
+     margin:auto;
+     display:block;
+     border-radius: 10%;
+    }
 }
