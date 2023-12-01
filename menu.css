@@ -1,0 +1,33 @@
+.menu{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    list-style:none;
+    justify-content:space-evenly ;
+    height: 50px;
+
+
+}
+.menu a {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:480px) {
+    .menu{
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+        list-style:none;
+        height: auto;
+    }
+
+    li{
+        margin: 3%;
+    }
+    .menu a {
+        color: rgb(255, 251, 251);
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,83 @@
+
+@import './menu.css';
+@import './botones.css';
+@import './footer.css';
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 10%;
+    height: 10%;
+}
+
+.row {
+    display: flex;
+}
+
+.column1 {
+    flex: 50%;
+    padding: 5%;
+    background-image: url(https://www.gob.mx/cms/uploads/article/main_image/106628/AGUA_2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.column2{
+    flex: 50%;
+    padding: 5%;
+    background-image: url(https://humanidades.com/wp-content/uploads/2016/06/suelo-planta-e1558823997978.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+    text-align: center;
+    color: white;
+}
+
+.texto{
+    background-color: rgb(35, 141, 233);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 60px; 
+    text-align:left;
+    height: 70%;
+}
+
+.imagen{
+    width: 35%;
+    height: 35%;
+    margin:auto;
+    display:block;
+    border-radius: 10%;
+    
+}
+
+@media screen and (max-width:480px) {
+    .row{
+        flex-direction: column;
+    }
+    .logo{
+        margin-top: 10px;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .imagen{
+     width: 45%;
+     height: 45%;
+     margin:auto;
+     display:block;
+     border-radius: 10%;
+    }
+}

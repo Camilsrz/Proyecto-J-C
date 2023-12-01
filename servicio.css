@@ -1,0 +1,94 @@
+
+@import './menu.css';
+@import './botones.css';
+@import './footer.css';
+
+
+.titulo{
+ font-family: 'Josefin Sans', sans-serif;
+ font-family: 'Playpen Sans', cursive;
+ text-align: center;
+ color: white;
+ font-size: x-large;
+ background-color: black;
+}
+
+
+.logo{ 
+    margin-top: 10px;
+    width:10%;
+    height: 10%;
+}
+   
+
+.row{
+    flex-direction: column;
+}
+
+.column1 {
+    
+    padding: 5%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/09/03/03/sky-1445077_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10%;
+}
+
+.column2{
+    
+    padding: 5%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/12/17/39/landscape-2396244_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10%;
+}
+
+.column3{
+    
+    padding: 5%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/10/17/41/sunset-4755842_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10%;
+}
+
+.column4{
+    
+    padding: 5%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5LTCJ2qsT_snmX9E6ESGzRl4HW5By3QfsQkDd8ccTvlvSnCTsKglaiOL5_VXykRNNGCI&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10%;
+}
+
+.column5{
+    
+    padding: 5%;
+    background-image: url(https://images.unsplash.com/photo-1475518845976-0fd87b7e4e5d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2llbG8lMjB2ZXJkZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10%;
+}
+
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+    text-align: center;
+    color: white;
+}
+
+.aviso{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    text-align: center;
+    color: black;
+}
+
+
