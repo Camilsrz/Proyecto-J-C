@@ -81,5 +81,14 @@ p{
     color: white;
 }
 
+.aviso{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    text-align: center;
+    color: black;
+}
 
 

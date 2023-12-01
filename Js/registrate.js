@@ -1,20 +1,12 @@
-const registrate = document.querySelector('#registrate')
-registrate.addEventListener('submit', (e)=>{ 
-    e.preventDefault()
-    const nombre = document.querySelector ('#nombre').value
-    const apellido = document.querySelector ('#apellido').value
-    const email = document.querySelector ('#email').value
-    const contraseña = document.querySelector ('#contraseña').value
-    const femenino = document.querySelector ('#femenino').value
-    const masculino = document.querySelector ('#masculino').value
-
-    const Users = JSON.parse(localStorage.getItem('users')) || []
-    const isUserRegistered = Users.find(user => user.email == email)
-    if(isUserRegistered){
-        return alert ('el usuario ya esta registrado')
-    }
-    Users.push({nombre: nombre, apellido: apellido, email: email, contraseña: contraseña, femenino: femenino, masculino: masculino})
-    localStorage.setItem('users', JSON.stringify(Users))
-    alert ('Registro Exitoso!')
-    window.location.href = 'iniciar sesion.html'
-})
+const registrate = document.getElementById("registrate")
+if(registrate){
+    registrate.addEventListener("submit", (e) => {
+        e.preventDefault ()
+        const nombre = document.getElementById("nombre").value
+        const email = document.getElementById("email").value
+        const contraseña = document.getElementById("contraseña").value
+        const user ={ nombre, email, contraseña}
+        const users = JSON.parse(localStorage.getItem("USERS")) || []
+        localStorage.setItem("Users", JSON.stringify([...users, user])) 
+        window.location = "./iniciar sesion.html"})
+}   
